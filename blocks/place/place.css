@@ -1,0 +1,35 @@
+.place{
+  margin-bottom: 48px;
+}
+
+.place:last-of-type{
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .place{
+    max-width: 720px;
+    margin: 0 auto 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, min-content);
+    grid-template-areas:
+    "title website"
+    "image paragraph_1"
+    "image paragraph_2";
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place{
+    max-width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place{
+    max-width: 1148px;
+  }
+}
