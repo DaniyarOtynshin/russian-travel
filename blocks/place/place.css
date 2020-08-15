@@ -11,12 +11,11 @@
     max-width: 720px;
     margin: 0 auto 48px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, min-content);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
     grid-template-areas:
     "title website"
-    "image paragraph_1"
-    "image paragraph_2";
+    "image paragraphs";
     column-gap: 24px;
     row-gap: 48px;
   }

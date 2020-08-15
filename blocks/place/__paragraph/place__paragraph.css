@@ -4,7 +4,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.63;
-
   color: #FFFFFF;
   margin: 0 16px 24px;
 }
@@ -15,11 +14,13 @@
 
 @media screen and (min-width: 768px) {
   .place__paragraph{
-    margin: 0;
-    grid-area: paragraph_1;
+    margin:0 0 24px;
   }
+}
 
-  .place__paragraph:nth-of-type(2n){
-    grid-area: paragraph_2;
+@media screen and (min-width: 1024px) {
+  .place__paragraph{
+    font-size: 18px;
+    line-height: 1.63;
   }
 }
