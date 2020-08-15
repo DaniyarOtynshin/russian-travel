@@ -1,11 +1,10 @@
 .footer__link{
   text-decoration: none;
-
   margin: 0;
   margin-bottom: 32px;
   font-family: "Inter";
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 1;
   color: #FFFFFF;
@@ -17,7 +16,8 @@
 
 @media screen and (min-width: 768px) {
   .footer__link{
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.12;
     margin: 0 18px 0 0;
   }
 
