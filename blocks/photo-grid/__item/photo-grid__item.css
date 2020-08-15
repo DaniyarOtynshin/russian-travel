@@ -1,5 +1,5 @@
 .photo-grid__item{
-  width: 100%;;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1280px) {
   .photo-grid__item{
     max-width: 284px;
   }
