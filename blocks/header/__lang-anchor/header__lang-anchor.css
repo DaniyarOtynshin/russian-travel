@@ -1,0 +1,21 @@
+.header__lang-anchor{
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: right;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header__lang-anchor:hover{
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-anchor{
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
