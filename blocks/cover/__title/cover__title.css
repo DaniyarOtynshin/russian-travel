@@ -9,7 +9,7 @@
   color: #FFFFFF;
   max-width: 288px;
   text-decoration: none;
-  z-index: 5;
+  z-index: 3;
 }
 
 @media screen and (min-width: 768px) {

@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  z-index: 4;
+  z-index: 3;
 }
 
 .cover__text:hover{

@@ -6,16 +6,10 @@
   left: 0;
   background: #2A2C2F;
   opacity: 0.3;
-  z-index: 3;
+  z-index: 2;
 }
 
 .cover__overlay:hover{
-  content: "";
-  background: #2A2C2F;
-  opacity: 0.8;
-}
-
-.cover__overlay.cover__subtitle:hover{
   background: #2A2C2F;
   opacity: 0.8;
 }
