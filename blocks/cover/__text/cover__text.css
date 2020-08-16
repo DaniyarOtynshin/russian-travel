@@ -1,9 +1,6 @@
 .cover__text{
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  width: 100%;
+  min-height: 62.5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,4 +13,12 @@
   background: #2A2C2F;
   background-size: contain;
   opacity: 0.8;
+}
+
+@media screen and (min-width: 1184px) {
+  .cover__text{
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto;
+  }
 }
